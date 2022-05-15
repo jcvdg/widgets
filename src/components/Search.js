@@ -23,7 +23,7 @@ const Search = () => {
             setResults(data.query.search) ;
         }
 
-        // if we're rendering for the first time, don't have delay when making a request to the api
+        // if we're rendering for the first time, don't have delay when
         if (term && !results.length) {
             search();
         } else {
